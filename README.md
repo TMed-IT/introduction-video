@@ -11,5 +11,5 @@ pip install -r requirements.txt
 
 2. 動画のレンダリング:
 ```bash
-manim -pql example.py Opening
+manim -pql main.py Opening
 ```
