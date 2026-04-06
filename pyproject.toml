@@ -1,0 +1,9 @@
+[project]
+name = "introduction-video"
+version = "1.1.0"
+description = "Manim project for IT club introduction video"
+requires-python = ">=3.11"
+dependencies = [
+    "manim==0.18.0",
+    "numpy>=1.21.0",
+]

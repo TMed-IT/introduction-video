@@ -4,12 +4,12 @@
 
 ## セットアップ手順
 
-1. 必要なパッケージのインストール:
+1. 依存パッケージの同期:
 ```bash
-pip install -r requirements.txt
+uv sync
 ```
 
 2. 動画のレンダリング:
 ```bash
-manim -pql main.py Opening
+uv run manim -pql main.py Opening
 ```
